@@ -1,0 +1,85 @@
+*
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.orange
+{
+	background-color: #EF5742;
+}
+
+.webprise
+{
+	font-family: 'Lobster', cursive;
+}
+
+.ini
+{
+	font-family: 'Lobster', cursive;
+}
+
+.image {
+  background-color: rgba(0,0,0,0.8);
+  filter:brightness(0.4);
+}
+
+.ceoquote
+{
+	font-family: 'Supermercado One', cursive;
+}
+
+.quote
+{
+  font-family: 'Supermercado One', cursive;
+}
+
+.black
+{
+	background-color: black;
+}
+
+.divider
+{
+	height: 7px;
+}
+
+.toperr
+{
+	opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+    .quote, .fot{
+        font-size:20px;
+    }
+}
+ 
+@media screen and (max-width: 568px) {
+    .quote, .fot{
+        font-size:0.8em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ini {
+        font-size:20px;
+    }
+}
+ 
+@media screen and (max-width: 568px) {
+     {
+        font-size:0.8em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ceoquote{
+        font-size:20px;
+    }
+}
+ 
+@media screen and (max-width: 568px) {
+    .ceoquote{
+        font-size:1.2em;
+    }
+}
