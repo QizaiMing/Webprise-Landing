@@ -51,10 +51,29 @@
         <div
           class="col-12 col-md-4 col-sm-4 align-self-center d-flex justify-content-end"
         >
-          <button class="btn text-white btndark btn-lg mr-5">
+          <button class="btn text-white btndark btn-lg mr-5" data-toggle="modal" data-target="#exampleModal">
             Contáctanos
           </button>
         </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Medios de Contacto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a href="https://wa.me/584247754975"><img src="img/whatsapp.png" class="mx-auto d-block" width="64" alt="whatsapp"></a><p class="text-center">Whatsapp: +584247754975</p>
+        <a href="https://www.instagram.com/juanchdzl/"><img src="img/instagram.png" class="mx-auto d-block mt-5" width="65" alt="instagram"></a><p class="text-center">Instagram: @webprise</p>
+        <a href="mailto:mahnimex@gmail.com"><img src="img/email.png" class="mx-auto d-block mt-5" width="64" alt="email"></a><p class="text-center">Email: mahnimex@gmail.com</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
       </div>
       <div class="row orange justify-content-around d-md-none d-sm-none">
         <div class="col-4 col-md-8 col-sm d-sm-flex align-self-sm-center">
@@ -63,8 +82,8 @@
           >
         </div>
         <div class="col-4 col-md-4 col-sm d-sm-flex align-self-center">
-          <a href="#contacto" class="btn btn-danger orange text-white mr-5"
-            >Contáctanos</a
+          <button class="btn btndark text-white mr-5" data-toggle="modal" data-target="#exampleModal"
+            >Contáctanos</button
           >
         </div>
       </div>
@@ -217,7 +236,7 @@
                 aumentar tus ventas. Es la mejor forma de empezar la
                 transformación digital de tu negocio
               </p>
-              <button class="btn btn-danger btn-block">Contáctanos</button>
+              <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#exampleModal">Contáctanos</button>
             </div>
           </div>
         </div>
@@ -238,7 +257,7 @@
                 ofrecer todo tu catálogo de productos a tus clientes y contar
                 con la mejor experiencia de usuario
               </p>
-              <button class="btn btn-danger btn-block">Contáctanos</button>
+              <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#exampleModal">Contáctanos</button>
             </div>
           </div>
         </div>
@@ -258,7 +277,7 @@
                 tiempo y dinero con tu propia plataforma de verificación de
                 pagos
               </p>
-              <button class="btn btn-danger btn-block">Contáctanos</button>
+              <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#exampleModal">Contáctanos</button>
             </div>
           </div>
         </div>
@@ -278,7 +297,7 @@
                 resolver? Contátanos y nosotros tendremos una solución
                 tecnológica para ti
               </p>
-              <button class="btn btn-danger btn-block">Contáctanos</button>
+              <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#exampleModal">Contáctanos</button>
             </div>
           </div>
         </div>
@@ -289,7 +308,7 @@
             "Rompe los esquemas, deja atrás a tu competencia y alcanza tus metas
             lanzando tu negocio en la web"
           </h1>
-          <p class="text-center">- Juan Chacon, Full Stack Developer</p>
+          <p class="text-center">- Juan Chacon, Founder & Full Stack Developer</p>
         </div>
       </div>
       <div
@@ -302,171 +321,7 @@
             Conoce a nuestro equipo
           </h1>
         </div>
-        <div class="col-12 col-md-4 mt-5 mb-5 pb-5">
-          <div class="card-container">
-            <div class="card">
-              <div class="front">
-                <div class="cover">
-                  <img src="images/rotating_card_thumb2.png" alt="fondo1" />
-                </div>
-                <div class="user">
-                  <img
-                    class="rounded-circle"
-                    src="images/bs1.png"
-                    alt="perfil1"
-                  />
-                </div>
-                <div class="content">
-                  <div class="main">
-                    <h3 class="name">William Rosadoro</h3>
-                    <p class="profession">CEO</p>
-                    <p class="text-center">
-                      "En WebPrise tenemos los mejores desarrolladores para el
-                      crecimiento de tu empresa"
-                    </p>
-                  </div>
-                  <div class="footer">
-                    <p>"Hacemos Realidad tus Ideas"</p>
-                  </div>
-                </div>
-              </div>
-              <!-- end front panel -->
-              <div class="back">
-                <div class="header">
-                  <h5 class="motto">
-                    "Si tienes una idea pero no sabes a quien acudir, nosotros
-                    somos los indicados"
-                  </h5>
-                </div>
-                <div class="content">
-                  <div class="main">
-                    <h4 class="text-center">Habilidades</h4>
-                    <p class="text-center">
-                      Diseño Web, Administración, Marketing, Director,
-                      Coordinador de Finanzas.
-                    </p>
-
-                    <div class="stats-container">
-                      <div class="stats">
-                        <h4>1556</h4>
-                        <p>Seguidores</p>
-                      </div>
-                      <div class="stats">
-                        <h4>256</h4>
-                        <p>Seguidos</p>
-                      </div>
-                      <div class="stats">
-                        <h4>15</h4>
-                        <p>Proyectos</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="footer">
-                  <div class="social-links text-center">
-                    <a href="#" class="facebook"
-                      ><i class="fa fa-facebook fa-fw"></i
-                    ></a>
-                    <a href="#" class="google"
-                      ><i class="fa fa-google-plus fa-fw"></i
-                    ></a>
-                    <a href="#" class="twitter"
-                      ><i class="fa fa-twitter fa-fw"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- end back panel -->
-            </div>
-            <!-- end card -->
-          </div>
-          <!-- end card-container -->
-        </div>
-        <!-- end col sm 3 -->
-        <!--         <div class="col-sm-1"></div> -->
-        <div class="col-12 col-md-4 mt-5 mb-5 pb-5">
-          <div class="card-container">
-            <div class="card">
-              <div class="front">
-                <div class="cover">
-                  <img src="images/rotating_card_thumb.jpeg" alt="fondo2" />
-                </div>
-                <div class="user">
-                  <img
-                    class="rounded-circle"
-                    src="images/wd.png"
-                    alt="perfil2"
-                  />
-                </div>
-                <div class="content">
-                  <div class="main">
-                    <h3 class="name">Mario Rosadoro</h3>
-                    <p class="profession">Community Manager</p>
-                    <p class="text-center">
-                      "Ser parte de WebPrise me ha permitido crecer en el ámbito
-                      profesional"
-                    </p>
-                  </div>
-                  <div class="footer">
-                    <p>"Sólo necesito de mi ingenio"</p>
-                  </div>
-                </div>
-              </div>
-              <!-- end front panel -->
-              <div class="back">
-                <div class="header">
-                  <h5 class="motto">
-                    "Juntos podemos ofrecer el mejor servicio a nuestros
-                    clientes"
-                  </h5>
-                </div>
-                <div class="content">
-                  <div class="main">
-                    <h4 class="text-center">Habilidades</h4>
-                    <p class="text-center">
-                      Community Manager, Adobe Photoshop, Illustrator, Diseñador
-                      Gráfico, Coordinador de Publicidad.
-                    </p>
-
-                    <div class="stats-container">
-                      <div class="stats">
-                        <h4>547</h4>
-                        <p>Seguidores</p>
-                      </div>
-                      <div class="stats">
-                        <h4>126</h4>
-                        <p>Seguidos</p>
-                      </div>
-                      <div class="stats">
-                        <h4>5</h4>
-                        <p>Proyectos</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="footer">
-                  <div class="social-links text-center">
-                    <a href="#" class="facebook"
-                      ><i class="fa fa-facebook fa-fw"></i
-                    ></a>
-                    <a href="#" class="google"
-                      ><i class="fa fa-google-plus fa-fw"></i
-                    ></a>
-                    <a href="#" class="twitter"
-                      ><i class="fa fa-twitter fa-fw"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- end back panel -->
-            </div>
-            <!-- end card -->
-          </div>
-          <!-- end card-container -->
-        </div>
-        <!-- end col sm 3 -->
-        <!--         <div class="col-sm-1"></div> -->
-        <div class="col-12 col-md-4 mt-5 mb-5 pb-5">
+        <div class="col-12 col-md-4 mt-5 mb-5 pb-5 mx-auto">
           <div class="card-container">
             <div class="card">
               <div class="front">
