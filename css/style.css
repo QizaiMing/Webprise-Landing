@@ -2,9 +2,29 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.bgwhite {
-  background-color: white;
+.bgdark {
+  background-color: #0d0d0d;
   opacity: 90%;
+}
+
+.nopadding {
+  padding: 0px;
+}
+
+.bgblack {
+  background-color: #0d090d;
+}
+
+.textdark {
+  color: #0d090d;
+}
+
+.textyellow {
+  color: #ffd731;
+}
+
+.textblue {
+  color: #58d3fc;
 }
 
 .bgblue {
@@ -21,7 +41,6 @@
 
 .webprise {
   font-family: 'Lobster', cursive;
-  color: #0d090d;
 }
 
 .ini {
